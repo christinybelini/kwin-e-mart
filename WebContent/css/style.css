@@ -1,0 +1,154 @@
+body {
+  background: #FFF;
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+}
+
+#tabela{
+	margin-top:0;
+}
+
+#area {
+  position: absolute;
+  width:820px;
+  height:570px;
+  top:50%;
+  left:50%;
+  margin-left:-410px;
+  margin-top:-285px;
+}
+
+#conteudo_esq {
+  position: relative;
+  width:10px;
+  float:left;
+}
+
+#conteudo {
+  position: relative;
+  background: #D3D3D3;
+  width:800px;
+  height:570px;
+  float:left;
+}
+
+#conteudoCat {
+  position: relative;
+  background: #D3D3D3;
+  width:770px;
+  height:540px;
+  float:left;
+  margin-top: -67%;
+  margin-left: 2%;
+  opacity:0.95;
+  -moz-opacity: 0.95;
+  filter: alpha(opacity=95);
+ }
+ 
+ #conteudoMarca {
+  position: relative;
+  background: #D3D3D3;
+  width:770px;
+  height:540px;
+  float:left;
+  margin-top: -67%;
+  margin-left: 2%;
+  opacity:0.95;
+  -moz-opacity: 0.95;
+  filter: alpha(opacity=95);
+ }
+
+#conteudo_dir {
+  position: relative;
+  width:10px;
+  float:left;
+}
+
+#titulo {
+  position: absolute;
+  float:left;
+  top:20px;
+  left:20px;
+}
+
+#menu {
+  position: absolute;
+  float:left;
+  top:34px;
+  font-family: Arial;
+  font-size:13px;
+  font-weight:bold;
+  margin-left: 10px;
+}
+
+#texto {
+  background: url("img/fundo_branco.png");
+  position: absolute;
+  float:left;
+  top:124px;
+  font-family: Arial;
+  font-size:14px;
+  width:480px;
+  height:300px;
+  text-align:justify;
+  margin-left: 20%;
+}
+
+#texto_conteudo {
+  position:absolute;
+  top:20px;
+  left:20px;
+  width:440px;
+  height:360px;
+  padding-right:20px;
+  font-family: Arial;
+  font-size:13px;
+  overflow:auto;
+}
+
+.titulo_txt {
+  color:#0097a9;
+  font-size:18px;
+  font-weight:bold;
+}
+
+a.pr:link    {text-decoration: none; color: #000}
+a.pr:visited {text-decoration: none; color: #000}
+a.pr:hover   {text-decoration: underline; color: #000}
+a.pr:active  {text-decoration: none; color: #000}
+
+a.az:link    {text-decoration: none; color: #00C}
+a.az:visited {text-decoration: none; color: #00C}
+a.az:hover   {text-decoration: underline; color: #00C}
+a.az:active  {text-decoration: none; color: #00C}
+
+
+.pagination {
+            font-size: 80%;
+        }
+        
+.pagination a {
+    text-decoration: none;
+	border: solid 1px #AAE;
+	color: #15B;
+}
+
+.pagination a, .pagination span {
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination .current {
+    background: #26B;
+    color: #fff;
+	border: solid 1px #AAE;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
